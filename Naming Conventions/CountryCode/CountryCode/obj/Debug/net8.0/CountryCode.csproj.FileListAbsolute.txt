@@ -1,0 +1,14 @@
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\bin\Debug\net8.0\CountryCode.exe
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\bin\Debug\net8.0\CountryCode.deps.json
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\bin\Debug\net8.0\CountryCode.runtimeconfig.json
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\bin\Debug\net8.0\CountryCode.dll
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\bin\Debug\net8.0\CountryCode.pdb
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\obj\Debug\net8.0\CountryCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\obj\Debug\net8.0\CountryCode.AssemblyInfoInputs.cache
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\obj\Debug\net8.0\CountryCode.AssemblyInfo.cs
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\obj\Debug\net8.0\CountryCode.csproj.CoreCompileInputs.cache
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\obj\Debug\net8.0\CountryCode.dll
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\obj\Debug\net8.0\refint\CountryCode.dll
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\obj\Debug\net8.0\CountryCode.pdb
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\obj\Debug\net8.0\CountryCode.genruntimeconfig.cache
+C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\obj\Debug\net8.0\ref\CountryCode.dll
