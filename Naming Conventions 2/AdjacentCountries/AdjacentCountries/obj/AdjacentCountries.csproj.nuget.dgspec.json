@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amit.mishra\\source\\L&C\\LAndC\\Naming Conventions 2\\AdjacentCountries\\AdjacentCountries\\AdjacentCountries.csproj": {}
+    "D:\\L&C\\LAndC\\Naming Conventions 2\\AdjacentCountries\\AdjacentCountries\\AdjacentCountries.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amit.mishra\\source\\L&C\\LAndC\\Naming Conventions 2\\AdjacentCountries\\AdjacentCountries\\AdjacentCountries.csproj": {
+    "D:\\L&C\\LAndC\\Naming Conventions 2\\AdjacentCountries\\AdjacentCountries\\AdjacentCountries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amit.mishra\\source\\L&C\\LAndC\\Naming Conventions 2\\AdjacentCountries\\AdjacentCountries\\AdjacentCountries.csproj",
+        "projectUniqueName": "D:\\L&C\\LAndC\\Naming Conventions 2\\AdjacentCountries\\AdjacentCountries\\AdjacentCountries.csproj",
         "projectName": "AdjacentCountries",
-        "projectPath": "C:\\Users\\amit.mishra\\source\\L&C\\LAndC\\Naming Conventions 2\\AdjacentCountries\\AdjacentCountries\\AdjacentCountries.csproj",
+        "projectPath": "D:\\L&C\\LAndC\\Naming Conventions 2\\AdjacentCountries\\AdjacentCountries\\AdjacentCountries.csproj",
         "packagesPath": "C:\\Users\\amit.mishra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amit.mishra\\source\\L&C\\LAndC\\Naming Conventions 2\\AdjacentCountries\\AdjacentCountries\\obj\\",
+        "outputPath": "D:\\L&C\\LAndC\\Naming Conventions 2\\AdjacentCountries\\AdjacentCountries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

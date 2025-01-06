@@ -12,3 +12,18 @@ C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\obj\Debug\net8.0\refint\
 C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\obj\Debug\net8.0\CountryCode.pdb
 C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\obj\Debug\net8.0\CountryCode.genruntimeconfig.cache
 C:\Users\amit.mishra\source\L&C\CountryCode\ConsoleApp1\obj\Debug\net8.0\ref\CountryCode.dll
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\bin\Debug\net8.0\CountryCode.exe
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\bin\Debug\net8.0\CountryCode.deps.json
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\bin\Debug\net8.0\CountryCode.runtimeconfig.json
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\bin\Debug\net8.0\CountryCode.dll
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\bin\Debug\net8.0\CountryCode.pdb
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\obj\Debug\net8.0\CountryCode.GeneratedMSBuildEditorConfig.editorconfig
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\obj\Debug\net8.0\CountryCode.AssemblyInfoInputs.cache
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\obj\Debug\net8.0\CountryCode.AssemblyInfo.cs
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\obj\Debug\net8.0\CountryCode.csproj.CoreCompileInputs.cache
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\obj\Debug\net8.0\CountryCode.sourcelink.json
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\obj\Debug\net8.0\CountryCode.dll
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\obj\Debug\net8.0\refint\CountryCode.dll
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\obj\Debug\net8.0\CountryCode.pdb
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\obj\Debug\net8.0\CountryCode.genruntimeconfig.cache
+D:\L&C\LAndC\Naming Conventions\CountryCode\CountryCode\obj\Debug\net8.0\ref\CountryCode.dll

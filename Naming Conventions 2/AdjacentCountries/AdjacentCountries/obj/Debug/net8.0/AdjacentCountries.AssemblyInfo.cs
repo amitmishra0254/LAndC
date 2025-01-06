@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdjacentCountries")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c69259cfd9d9c059d8e69741b44ab41738a22ff3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70e05d901952c4a0d458da835eca0c6d2ed5bdab")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdjacentCountries")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdjacentCountries")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

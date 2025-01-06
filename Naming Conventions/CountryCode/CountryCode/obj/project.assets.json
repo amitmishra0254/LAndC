@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amit.mishra\\source\\L&C\\CountryCode\\ConsoleApp1\\CountryCode.csproj",
+      "projectUniqueName": "D:\\L&C\\LAndC\\Naming Conventions\\CountryCode\\CountryCode\\CountryCode.csproj",
       "projectName": "CountryCode",
-      "projectPath": "C:\\Users\\amit.mishra\\source\\L&C\\CountryCode\\ConsoleApp1\\CountryCode.csproj",
+      "projectPath": "D:\\L&C\\LAndC\\Naming Conventions\\CountryCode\\CountryCode\\CountryCode.csproj",
       "packagesPath": "C:\\Users\\amit.mishra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amit.mishra\\source\\L&C\\CountryCode\\ConsoleApp1\\obj\\",
+      "outputPath": "D:\\L&C\\LAndC\\Naming Conventions\\CountryCode\\CountryCode\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
