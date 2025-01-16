@@ -17,7 +17,14 @@ namespace AdjacentCountries
                     Console.WriteLine(string.Join(", ", countries.Keys.ToList()).ToString());
                     return;
                 }
-                Console.WriteLine(string.Join(", ", countries[countryCode]));
+                if (countries[countryCode].Count > 0)
+                {
+                    Console.WriteLine(string.Join(", ", countries[countryCode]));
+                }
+                else
+                {
+                    Console.WriteLine($"No Adjacent Countries are present for {countryCode} Country Code.");
+                }
             }
             catch (Exception ex)
             {
