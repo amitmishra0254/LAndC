@@ -1,18 +1,6 @@
-﻿/*public class Employee
+﻿public interface Employee
 {
-    int id;
-    string name;
-    string department;
-    bool working;
-
-    public static void Main(string[] args)
-    {
-        saveEmployeeTODatabase()
-        printEmployeeDetailReportXML()
-        printEmployeeDetailReportCSV()
-        terminateEmployee()
-        bool
-        isWorking()
-    }
-};
-*/
+    public void terminateEmployee();
+    public bool isWorking();
+    public string getEmployeeDetail();
+}

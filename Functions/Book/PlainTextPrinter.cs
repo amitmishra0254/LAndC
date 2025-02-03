@@ -16,10 +16,8 @@
 
 class PlainTextPrinter : Printer
 {
-
     public void printPage(int page)
     {
         Console.WriteLine(page);
     }
-
 }
