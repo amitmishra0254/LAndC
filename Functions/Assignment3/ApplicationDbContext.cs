@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Assignment3
+namespace CustomerSearch
 {
     public class ApplicationDbContext : DbContext
     {
@@ -8,7 +8,7 @@ namespace Assignment3
         {
         }
 
-        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Customer> customers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -2,10 +2,10 @@
 {
     public class GuessTheCurrectNumber : Logic
     {
-        public InputValidatior inputValidatior;
+        public InputValidator inputValidatior;
         public int target;
 
-        public GuessTheCurrectNumber(InputValidatior inputValidatior)
+        public GuessTheCurrectNumber(InputValidator inputValidatior)
         {
             this.inputValidatior = inputValidatior;
         }

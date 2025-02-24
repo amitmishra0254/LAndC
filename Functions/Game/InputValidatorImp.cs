@@ -1,6 +1,6 @@
 ﻿namespace Game
 {
-    public class InputValidatorImp : InputValidatior
+    public class InputValidatorImp : InputValidator
     {
         /// <summary>
         /// Return true if input is in range of fromNumber to toNumber, otherwise false.

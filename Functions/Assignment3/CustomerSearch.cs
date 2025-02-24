@@ -1,5 +1,4 @@
-﻿using Assignment3;
-using System.Text;
+﻿using System.Text;
 
 namespace CustomerSearch
 {

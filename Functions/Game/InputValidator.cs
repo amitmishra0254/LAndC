@@ -1,6 +1,6 @@
 ﻿namespace Game
 {
-    public interface InputValidatior
+    public interface InputValidator
     {
         public bool isValidInputBetweenRange(int fromNumber, int toNumber, int input);
     }

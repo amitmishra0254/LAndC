@@ -5,13 +5,13 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game", "Game\Game.csproj", "{4C403162-220A-4879-AC3B-86E5DD1E3C9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Floor", "Floor\Floor.csproj", "{C27E717B-2B37-4FC2-AA74-FBA479C7DAD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Floor", "Floor\Floor.csproj", "{C27E717B-2B37-4FC2-AA74-FBA479C7DAD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment3", "Assignment3\Assignment3.csproj", "{ED96F7A7-201C-444C-B75E-C8673B9B8D26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerSearch", "Assignment3\CustomerSearch.csproj", "{ED96F7A7-201C-444C-B75E-C8673B9B8D26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book", "Book\Book.csproj", "{2974A5ED-A3F1-4C10-A607-45832D102C1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Book", "Book\Book.csproj", "{2974A5ED-A3F1-4C10-A607-45832D102C1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee", "Employee\Employee.csproj", "{5C01E0CE-D018-4FDC-A121-79C98FA00A7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee", "Employee\Employee.csproj", "{5C01E0CE-D018-4FDC-A121-79C98FA00A7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

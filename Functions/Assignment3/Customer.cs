@@ -1,4 +1,4 @@
-﻿namespace Assignment3
+﻿namespace CustomerSearch
 {
     public class Customer
     {

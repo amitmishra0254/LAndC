@@ -1,6 +1,4 @@
-﻿using Assignment3;
-
-namespace CustomerSearch
+﻿namespace CustomerSearch
 {
     public interface ExportStrategy
     {
