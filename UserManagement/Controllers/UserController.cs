@@ -17,14 +17,19 @@ namespace UserManagement.Controllers
         {
             this.userManager = userManager;
             this.logger = logger;
-
         }
+
         [HttpPost]
         public async Task<IActionResult> CreateUser(UserDTO user)
         {
             try
             {
-                return Ok(await this.userManager.CreateUser(user));
+                return CreatedAtAction(nameof(CreateUser),await this.userManager.CreateUser(user),user);
+            }
+            catch (ObjectAlreadyExistException ex)
+            {
+                this.logger.LogError(ex, ex.Message);
+                return StatusCode(StatusCodes.Status409Conflict, ex.Message);
             }
             catch (Exception ex)
             {
@@ -43,7 +48,7 @@ namespace UserManagement.Controllers
             catch (NotFoundException ex)
             {
                 this.logger.LogError(ex, ex.Message);
-                return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+                return StatusCode(StatusCodes.Status404NotFound, ex.Message);
             }
             catch (Exception ex)
             {
@@ -62,7 +67,7 @@ namespace UserManagement.Controllers
             catch (NotFoundException ex)
             {
                 this.logger.LogError(ex, ex.Message);
-                return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+                return StatusCode(StatusCodes.Status404NotFound, ex.Message);
             }
             catch (Exception ex)
             {
@@ -81,7 +86,12 @@ namespace UserManagement.Controllers
             catch (NotFoundException ex)
             {
                 this.logger.LogError(ex, ex.Message);
-                return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+                return StatusCode(StatusCodes.Status404NotFound, ex.Message);
+            }
+            catch (ObjectAlreadyExistException ex)
+            {
+                this.logger.LogError(ex, ex.Message);
+                return StatusCode(StatusCodes.Status409Conflict, ex.Message);
             }
             catch (Exception ex)
             {

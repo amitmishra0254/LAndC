@@ -1,6 +1,8 @@
 ﻿using UserManagement.DAL.Repositories;
 using UserManagement.DTOs;
 using UserManagement.Entities;
+using UserManagement.Exceptions;
+using UserManagement.Utilities;
 
 namespace UserManagement.Manager
 {
@@ -14,11 +16,16 @@ namespace UserManagement.Manager
 
         public async Task<int> CreateUser(UserDTO userDto)
         {
+            if(await this.userRepository.IsAnyUserPresent(user => user.Email.ToLower() == userDto.Email.ToLower()))
+            {
+                throw new ObjectAlreadyExistException(ApplicationConstants.UserAlreadyExistException);
+            }
             User user = new User()
             {
                 FirstName = userDto.FirstName,
                 LastName = userDto.LastName,
                 Age = userDto.Age,
+                Email = userDto.Email,
             };
             return await this.userRepository.CreateUser(user);
         }
@@ -31,6 +38,7 @@ namespace UserManagement.Manager
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 Age = user.Age,
+                Email = user.Email,
             };
             return userDto;
         }
@@ -43,12 +51,17 @@ namespace UserManagement.Manager
         public async Task<int> UpdateUser(int Id, UserDTO userDto)
         {
             User existingUser = await this.userRepository.GetUser(Id);
+            if (await this.userRepository.IsAnyUserPresent(user => user.Email.ToLower() == userDto.Email.ToLower()))
+            {
+                throw new ObjectAlreadyExistException(ApplicationConstants.UserAlreadyExistException);
+            }
             User user = new User()
             {
                 Id = existingUser.Id,
                 FirstName = userDto.FirstName,
                 LastName = userDto.LastName,
                 Age = userDto.Age,
+                Email = userDto.Email,
             };
             return await this.userRepository.UpdateUser(user);
         }
