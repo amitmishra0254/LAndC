@@ -9,7 +9,7 @@ public class CustomerRepositoryImp : CustomerRepository
         if (!customers.TryGetValue(cutomerId, out var customer))
         {
             Console.WriteLine("Customer not found");
-            throw new CustomerNotFoundException("Order not found");
+            throw new NotFoundException("Order not found");
         }
         return customer;
     }

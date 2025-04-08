@@ -2,30 +2,31 @@
 using OnlineShoppingSystem.Exceptions;
 using OnlineShoppingSystem.Managers;
 using Microsoft.Extensions.Logging;
+using OnlineShoppingSystem.Enums;
 
 public class OrderManagerImp : OrderManager
 {
     private readonly OrderRepository orderRepository;
     private readonly ProductRepository productRepository;
     private readonly CustomerRepository customerRepository;
-    private readonly NotificationSender notificationSender;
-    private readonly EmailSender emailSender;
+    private readonly NotificationSender notificationService;
+    private readonly EmailSender emailService;
     private readonly ILogger<OrderManagerImp> logger;
     private readonly ProductManager productManager;
 
     public OrderManagerImp(OrderRepository orderRepository,
                         ProductRepository productRepository,
                         CustomerRepository customerRepository,
-                        NotificationSender notificationSender,
-                        EmailSender emailSender,
+                        NotificationSender notificationService,
+                        EmailSender emailService,
                         ILogger<OrderManagerImp> logger,
                         ProductManager productManager)
     {
         this.orderRepository = orderRepository;
         this.productRepository = productRepository;
         this.customerRepository = customerRepository;
-        this.notificationSender = notificationSender;
-        this.emailSender = emailSender;
+        this.notificationService = notificationService;
+        this.emailService = emailService;
         this.logger = logger;
         this.productManager = productManager;
     }
@@ -88,21 +89,11 @@ public class OrderManagerImp : OrderManager
 
             this.orderRepository.SaveChanges();
 
-            this.emailSender.SendEmail(customer.Email, $"Order {orderId} is being processed");
-            this.notificationSender.SendNotification($"New order processing: {orderId}", Role.Admin);
+            this.emailService.SendEmail(customer.Email, $"Order {orderId} is being processed");
+            this.notificationService.SendNotification($"New order processing: {orderId}", Role.Admin);
             return true;
         }
-        catch (CustomerNotFoundException ex)
-        {
-            this.logger.LogError(ex, ex.Message);
-            return false;
-        }
-        catch (OrderNotFoundException ex)
-        {
-            this.logger.LogError(ex, ex.Message);
-            return false;
-        }
-        catch (ProductNotFoundException ex)
+        catch (NotFoundException ex)
         {
             this.logger.LogError(ex, ex.Message);
             return false;

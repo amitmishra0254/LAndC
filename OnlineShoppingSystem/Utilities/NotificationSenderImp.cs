@@ -1,4 +1,6 @@
-﻿public class NotificationSenderImp : NotificationSender
+﻿using OnlineShoppingSystem.Enums;
+
+public class NotificationSenderImp : NotificationSender
 {
     public void SendNotification(string message, Role role)
     {
