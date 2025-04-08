@@ -11,7 +11,7 @@ namespace OnlineShoppingSystem.Enums
         Pending = 1,
         Processing = 2,
         Accepted = 3,
-        Cancled = 3,
+        Canceled = 3,
         Delivered = 4
     }
 
