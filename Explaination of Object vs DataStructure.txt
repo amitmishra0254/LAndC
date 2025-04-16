@@ -24,5 +24,5 @@ Employee employee;
 Is 'employee' an object or a data structure? Why?
 
 
-Answer: In the above example, the employee is an instance of Employee class which means it is an Object because in the example we can see that the class "Employee" contain some data fields with some methods like setName and getAge. These methods states some behavior of Employee class. In Data Structures, we only defines data fields for storing them and without any behaviors.
+Answer: In the above example, the employee is an instance of the Employee Data Structure class, which means it is a Data Structure. We can see that the class "Employee" contains some getters and setters, like setName and getAge. These methods can be used to access and modify the data for a particular instance.
 
