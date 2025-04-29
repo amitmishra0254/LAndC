@@ -1,0 +1,28 @@
+Class Employee {
+
+	string name;
+
+	int age;
+
+	float salary;
+
+	public : string getName();
+
+	void setName(string name);
+
+	int getAge();
+
+	void setAge(int age);
+
+	float getSalary();
+
+	void setSalary(float salary);
+};
+
+Employee employee;
+
+Is 'employee' an object or a data structure? Why?
+
+
+Answer: In the above example, the employee is an instance of the Employee Data Structure class, which means it is a Data Structure. We can see that the class "Employee" contains some getters and setters, like setName and getAge. These methods can be used to access and modify the data for a particular instance.
+
