@@ -22,10 +22,6 @@ namespace PlaceLocator
                 Tuple<double, double> coordinates = await geocodingAdapter.GetCoordinatesFromAddressAsync(GetAddressFromUser());
                 Console.WriteLine($"Latitude: {coordinates.Item1}, Longitude: {coordinates.Item2}");
             }
-            catch (GeocodingException ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error: {ex.Message}");
@@ -40,10 +36,8 @@ namespace PlaceLocator
             while (string.IsNullOrWhiteSpace(address))
             {
                 Console.WriteLine("Address cannot be empty. Please enter a valid address.");
-                Console.Write("Enter the address you want to locate: ");
-                address = Console.ReadLine();
+                return GetAddressFromUser();
             }
-
             return address;
         }
 
