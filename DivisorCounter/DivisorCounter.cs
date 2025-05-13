@@ -7,7 +7,7 @@
         int count = 0;
         for (int index = 1; index < number; index++)
         {
-            if (CountDivisors(index) == CountDivisors(index + 1))
+            if (CountDivisors(index) == CountDivisors(index+1))
             {
                 count++;
             }
@@ -15,14 +15,21 @@
         return count;
     }
 
-    private static int CountDivisors(int num)
+    private static int CountDivisors(int number)
     {
         int count = 0;
-        for (int index = 1; index <= Math.Sqrt(num); index++)
+        for (int index = 1; index <= Math.Sqrt(number); index++)
         {
-            if (num % index == 0)
+            if (number%index == 0)
             {
-                count += (index == num / index) ? 1 : 2;
+                if(index == number / index)
+                {
+                    count++;
+                }
+                else
+                {
+                    count += 2;
+                }
             }
         }
         return count;
